@@ -1,4 +1,5 @@
-After asking the first question and not understanding, I added the prompt "please explain it like I am new to the topic".
+I asked Copilot what the document object is.
 
-The document object gives JavaScript access to a webpage, and is provided by the browser itself. We can use it to find and change HTML elements.
+I didn't understand the first answer, so I asked: "Please explain it like I'm new to the topic."
 
+I learned that Copilot can give simpler explanations and code examples if I ask.
