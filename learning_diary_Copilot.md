@@ -34,3 +34,12 @@ I asked Copilot which properties of a div I can change with JavaScript.
 I asked for simple examples to better understand how they work.
 
 Based on these examples, I tried making my own changes to the webpage (changing background and padding)
+
+
+Task 5.2 input
+
+I asked Copilot which properties of an input element I can change with JavaScript.
+
+I asked specifically how to change the placeholder text and background color.
+
+Since padding wasn't mentioned in the first answer, I asked about it and whether there were any other properties we hadn't covered yet.

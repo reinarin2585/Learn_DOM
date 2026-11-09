@@ -35,3 +35,12 @@ A div is a container for text and other HTML elements.
 JavaScript can access a div using its ID.
 
 Properties like textContent, style.backgroundColor and style.padding can change the text, background color and padding.
+
+
+Task 5.2 input
+
+An input element lets users enter information, like text or numbers.
+
+The placeholder property shows a hint inside an empty input field.
+
+Properties like style.backgroundColor and style.padding can change the background color and the space inside the input field.

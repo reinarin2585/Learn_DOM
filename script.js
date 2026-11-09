@@ -10,3 +10,7 @@ button.style.color = "blue";
 const myDiv = document.querySelector("div");
 myDiv.style.backgroundColor = "lightblue";
 myDiv.style.padding = "20px";
+
+const nameInput = document.getElementById("name");
+nameInput.placeholder = "Enter your name";
+nameInput.style.backgroundColor = "lightyellow";
