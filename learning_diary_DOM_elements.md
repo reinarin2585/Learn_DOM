@@ -1,3 +1,5 @@
+Task 1
+
 The document object gives JavaScript access to a webpage. It is provided by the browser.
 
 We can use it to find and change HTML elements.
@@ -21,3 +23,15 @@ A button can be found using its ID.
 textContent can change the text of a button.
 
 style.color can change the text color of a button.
+
+
+Task 4 = Presentation
+
+
+Task 5.1 div
+
+A div is a container for text and other HTML elements.
+
+JavaScript can access a div using its ID.
+
+Properties like textContent, style.backgroundColor and style.padding can change the text, background color and padding.

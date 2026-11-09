@@ -12,7 +12,7 @@ I asked Copilot how to access and change an HTML list.
 
 Copilot showed me how to use getElementById().
 
-I learned that I can ask Copilot for examples when I don't know how to write the code.
+Copilot automatically provides codes as examples for orientation.
 
 
 Task 3
@@ -22,3 +22,15 @@ I asked Copilot which button properties I can change.
 Copilot helped me understand how to change the button text and color.
 
 I tried the code myself and checked the changes on the webpage.
+
+
+Task 4 = presentation done
+
+
+Task 5.1 div
+
+I asked Copilot which properties of a div I can change with JavaScript.
+
+I asked for simple examples to better understand how they work.
+
+Based on these examples, I tried making my own changes to the webpage (changing background and padding)
