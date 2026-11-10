@@ -3,6 +3,12 @@ document.querySelector("div").textContent = "Hello from JavaScript!";
 const myList = document.getElementById("myList");
 myList.style.color = "red";
 
+myList.style.listStyleType = "square";
+
+const newItem = document.createElement("li");
+newItem.textContent = "Item 4";
+myList.appendChild(newItem);
+
 const button = document.getElementById("submitBtn");
 button.textContent = "Click here";
 button.style.color = "blue";

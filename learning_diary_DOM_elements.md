@@ -62,3 +62,12 @@ A table displays data in rows (tr) and cells (th for headers, td for data). The 
 Properties give us information about an element (e.g. rows, cells), while methods perform actions (e.g. insertRow()).
 
 JavaScript can add new rows (insertRow()) and cells (insertCell()) to a table or remove rows (deleteRow()).
+
+
+Task 5.5 ul
+
+A ul is an unordered list, and each list item is an li element.
+
+The text can be read or changed with textContent, and the bullet style can be changed with style.listStyleType.
+
+New list items can be created with createElement("li"), given text with textContent, and added to the list with appendChild(). Items can also be removed with remove().

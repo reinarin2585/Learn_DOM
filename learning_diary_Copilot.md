@@ -61,3 +61,12 @@ I started with the given questions about which properties and methods of a table
 I then asked Copilot to explain the difference between properties and methods in simple English.
 
 I asked more specifically how to add a new row and cells to my existing table using insertRow() and insertCell().
+
+
+Task 5.5 ul
+
+I started with the given questions about which properties and methods of a ul can be accessed with JavaScript and what they do.
+
+I then asked more specifically how to change the bullet style using style.listStyleType.
+
+I also asked how to create a new list item, give it text, and add it to my existing list.
