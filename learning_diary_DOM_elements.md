@@ -71,3 +71,12 @@ A ul is an unordered list, and each list item is an li element.
 The text can be read or changed with textContent, and the bullet style can be changed with style.listStyleType.
 
 New list items can be created with createElement("li"), given text with textContent, and added to the list with appendChild(). Items can also be removed with remove().
+
+
+Task 5.6 select & option
+
+select and option are used together to create a dropdown menu.
+
+JavaScript can add new options using createElement("option") and add().
+
+Each option has a value (the stored value) and textContent (the text shown to the user). Both can be changed with JavaScript.

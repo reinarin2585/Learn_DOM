@@ -70,3 +70,12 @@ I started with the given questions about which properties and methods of a ul ca
 I then asked more specifically how to change the bullet style using style.listStyleType.
 
 I also asked how to create a new list item, give it text, and add it to my existing list.
+
+
+Task 5.6 select & option
+
+I started again with the given questions about which properties and methods of select and option can be accessed with JavaScript and what they do  in simple English.
+
+I then asked Copilot to explain the difference between id, name and value.
+
+I asked more specifically how to add a new option to my existing dropdown menu and how to set its value and textContent.

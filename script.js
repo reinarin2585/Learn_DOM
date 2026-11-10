@@ -1,9 +1,11 @@
 document.querySelector("div").textContent = "Hello from JavaScript!";
 
+
 const myList = document.getElementById("myList");
 myList.style.color = "red";
 
 myList.style.listStyleType = "square";
+
 
 const newItem = document.createElement("li");
 newItem.textContent = "Item 4";
@@ -25,8 +27,18 @@ const myForm = document.getElementById("myForm");
 myForm.style.backgroundColor = "lightpink";
 myForm.style.padding = "15px";
 
+
 const myTable = document.getElementById("myTable");
 
 const newRow = myTable.insertRow();
 newRow.insertCell().textContent = "Sarah";
 newRow.insertCell().textContent = "31";
+
+
+const colorSelect = document.getElementById("color");
+
+const newOption = document.createElement("option");
+newOption.value = "Sage";
+newOption.textContent = "Sage";
+
+colorSelect.add(newOption);
