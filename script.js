@@ -42,3 +42,50 @@ newOption.value = "Sage";
 newOption.textContent = "Sage";
 
 colorSelect.add(newOption);
+
+
+const canvas = document.getElementById("myCanvas");
+const context = canvas.getContext("2d");
+
+context.fillStyle = "orange";
+context.fillRect(20, 20, 200, 60);
+
+context.fillStyle = "black";
+context.font = "20px sans-serif";
+context.fillText("Your Signature", 20, 105);
+
+let drawing = false;
+
+function mousePosition(event) {
+    const rect = canvas.getBoundingClientRect();
+
+    const x = (event.clientX - rect.left) * canvas.width / rect.width;
+    const y = (event.clientY - rect.top) * canvas.height / rect.height;
+
+    return { x, y };
+}
+
+canvas.addEventListener("mousedown", function(event) {
+    drawing = true;
+
+    const pos = mousePosition(event);
+    context.beginPath();
+    context.moveTo(pos.x, pos.y);
+});
+
+canvas.addEventListener("mousemove", function(event) {
+    if (drawing) {
+        const pos = mousePosition(event);
+
+        context.lineTo(pos.x, pos.y);
+        context.stroke();
+    }
+});
+
+window.addEventListener("mouseup", function() {
+    drawing = false;
+});
+
+context.strokeStyle = "darkblue";
+context.lineWidth = 2;
+context.lineCap = "round";

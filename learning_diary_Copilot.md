@@ -8,6 +8,7 @@ I learned that Copilot can give simpler explanations and code examples if I ask.
 
 
 Task 2
+
 I asked Copilot how to access and change an HTML list.
 
 Copilot showed me how to use getElementById().
@@ -21,7 +22,7 @@ I asked Copilot which button properties I can change.
 
 Copilot helped me understand how to change the button text and color.
 
-I tried the code myself and checked the changes on the webpage.
+I tried the code myself and checked the changes on the webpage. I had to tell Copilot to not change code on its own in my js.
 
 
 Task 4 = presentation done
@@ -79,3 +80,12 @@ I started again with the given questions about which properties and methods of s
 I then asked Copilot to explain the difference between id, name and value.
 
 I asked more specifically how to add a new option to my existing dropdown menu and how to set its value and textContent.
+
+
+Task 5.7 canvas
+
+I started with the given questions about which properties and methods of a canvas can be accessed with JavaScript and what they do, asking for simple examples.
+
+I asked Copilot for further explanations of the drawing methods, such as fillRect() and fillText(), to better understand how they work.
+
+I then asked for a practical example of how to draw a signature with the mouse and used Copilot's suggestion as a starting point to adapt and expand my code.

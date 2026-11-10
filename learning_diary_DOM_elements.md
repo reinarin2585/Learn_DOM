@@ -1,6 +1,6 @@
 Task 1
 
-The document object gives JavaScript access to a webpage. It is provided by the browser.
+The document object gives JavaScript access to a webpage (entry point). It is provided by the browser.
 
 We can use it to find and change HTML elements.
 
@@ -18,11 +18,12 @@ I used style.color to change the text color of the list to red.
 
 Task 3
 
-A button can be found using its ID.
+A button can be found using its ID with getElementById().
 
-textContent can change the text of a button.
+textContent can change the text of a button, and style.color can change its text color.
 
-style.color can change the text color of a button.
+A button  can trigger an action when clicked, for example by using an addEventListener() with a "click"  event.
+
 
 
 Task 4 = Presentation
@@ -80,3 +81,12 @@ select and option are used together to create a dropdown menu.
 JavaScript can add new options using createElement("option") and add().
 
 Each option has a value (the stored value) and textContent (the text shown to the user). Both can be changed with JavaScript.
+
+
+Task 5.7 canvas
+
+A canvas is a drawing area on a webpage. Its size can be changed with width and height, and a border can be added with style.border.
+
+getContext("2d") gives us the drawing tools we need to draw on the canvas.
+
+Mouse events like mousedown, mousemove and mouseup, together with drawing methods like moveTo(), lineTo() and stroke(), allow users to draw their own signature.
