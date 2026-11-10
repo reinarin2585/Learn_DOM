@@ -18,3 +18,9 @@ nameInput.style.backgroundColor = "lightyellow";
 const myForm = document.getElementById("myForm");
 myForm.style.backgroundColor = "lightpink";
 myForm.style.padding = "15px";
+
+const myTable = document.getElementById("myTable");
+
+const newRow = myTable.insertRow();
+newRow.insertCell().textContent = "Sarah";
+newRow.insertCell().textContent = "31";

@@ -52,3 +52,12 @@ I started with the given questions about which properties of a form can be acces
 I then asked Copilot to explain the difference between checkboxes and radio buttons.
 
 I also asked about submitting a form and the difference between type="button" and type="submit".
+
+
+Task 5.4 table
+
+I started with the given questions about which properties and methods of a table can be accessed with JavaScript and what they do.
+
+I then asked Copilot to explain the difference between properties and methods in simple English.
+
+I asked more specifically how to add a new row and cells to my existing table using insertRow() and insertCell().

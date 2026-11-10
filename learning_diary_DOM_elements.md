@@ -53,3 +53,12 @@ A form is a container for different input elements (e.g. text fields, checkboxes
 A form can submit data. A button with type="submit" submits the form, while type="button" does not submit it automatically.
 
 JavaScript can access a form using its ID and change properties like background color and padding.
+
+
+Task 5.4 table
+
+A table displays data in rows (tr) and cells (th for headers, td for data). The text in these cells can be changed using textContent.
+
+Properties give us information about an element (e.g. rows, cells), while methods perform actions (e.g. insertRow()).
+
+JavaScript can add new rows (insertRow()) and cells (insertCell()) to a table or remove rows (deleteRow()).
