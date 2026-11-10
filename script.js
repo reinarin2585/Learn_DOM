@@ -14,3 +14,7 @@ myDiv.style.padding = "20px";
 const nameInput = document.getElementById("name");
 nameInput.placeholder = "Enter your name";
 nameInput.style.backgroundColor = "lightyellow";
+
+const myForm = document.getElementById("myForm");
+myForm.style.backgroundColor = "lightpink";
+myForm.style.padding = "15px";

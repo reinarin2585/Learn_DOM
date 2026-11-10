@@ -43,4 +43,13 @@ An input element lets users enter information, like text or numbers.
 
 The placeholder property shows a hint inside an empty input field.
 
-Properties like style.backgroundColor and style.padding can change the background color and the space inside the input field.
+Input elements are not just text fields. They can also be radio buttons or checkboxes.
+
+
+Task 5.3 form
+
+A form is a container for different input elements (e.g. text fields, checkboxes, radio buttons).
+
+A form can submit data. A button with type="submit" submits the form, while type="button" does not submit it automatically.
+
+JavaScript can access a form using its ID and change properties like background color and padding.

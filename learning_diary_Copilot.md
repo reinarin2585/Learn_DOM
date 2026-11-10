@@ -43,3 +43,12 @@ I asked Copilot which properties of an input element I can change with JavaScrip
 I asked specifically how to change the placeholder text and background color.
 
 Since padding wasn't mentioned in the first answer, I asked about it and whether there were any other properties we hadn't covered yet.
+
+
+Task 5.3 form
+
+I started with the given questions about which properties of a form can be accessed with JavaScript and what they do.
+
+I then asked Copilot to explain the difference between checkboxes and radio buttons.
+
+I also asked about submitting a form and the difference between type="button" and type="submit".
